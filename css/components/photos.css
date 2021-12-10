@@ -1,0 +1,15 @@
+.container--photos{
+ padding: 20px;
+ background-color: rgba(163, 62, 86, 0.55) ;
+ height: auto;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0px;
+ justify-content: center;
+}
+
+.container--photos img:hover{
+    background-color: tomato;
+     border: 2px;
+     border-color: white;
+    }

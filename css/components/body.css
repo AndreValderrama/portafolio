@@ -1,0 +1,52 @@
+.container{
+ background-image: url('/images/bg1.png'); 
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ display: flex;
+ flex-direction: column;
+ font-family:'Open Sans', sans-serif;
+ 
+}
+
+.container--intro{
+display:flex; 
+
+align-items: center;
+ 
+}
+.container--intro__img{
+    padding: 10px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.img__diamond--left{
+    padding: 5px;
+    height: 50px; 
+    width: auto;    
+    transform: rotate(45deg) ;
+}
+.img__diamond--right{
+    padding: 5px;
+    width: auto;
+    height: 50px; 
+    transform: rotate(-45deg) ;
+}
+
+.container--intro__quote{
+    transform: rotate(1deg) ;
+    margin: 25px 25px 25px 25px; 
+    padding: 14px;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.55);
+    border-radius: 8px 0px 8px 0px;
+    font-weight: 600;
+    font-size: 36px;
+    box-shadow: 10px 5px 5px rgb(75, 74, 74),
+    inset 0 -3em 3em rgba(0,0,0,0.1),    
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}

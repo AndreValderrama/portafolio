@@ -1,0 +1,61 @@
+button{
+width: 100%;
+height: auto;
+}
+
+.main-hb{
+  display: flex; 
+  width: 100%;
+  justify-content: space-around;
+  align-items: center; 
+  align-content: stretch;
+}
+.main-hb__text{
+  background-image: url('/images/hb-card.png') ;
+  background-size: 100% 100%;
+  padding:80px;
+  width: 50%;
+  height: 100%;
+  
+  font-family:'Meow Script', cursive; 
+  text-justify:auto;
+  font-size: 60px;
+  
+}
+
+.container--grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "a1 a1 a2 a2"
+      "a3 a4 a2 a2"
+      "a5 a5 a5 a6"
+      "a8 a7 a7 a6";
+    opacity: 0.85; 
+  }
+  
+
+  .a1 { grid-area: a1;    
+
+} 
+
+  
+  .a2 { grid-area: a2;
+    
+    
+     }
+  
+  .a3 { grid-area: a3; }
+  
+  .a4 { grid-area: a4; }
+  
+  .a5 { grid-area: a5; }
+  
+  .a6 { grid-area: a6;}
+  
+  .a7 { grid-area: a7; }
+  
+  .a8 { grid-area: a8; }
+ 
